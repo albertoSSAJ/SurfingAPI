@@ -1,0 +1,16 @@
+object DBCategorias: TDBCategorias
+  OldCreateOrder = False
+  Height = 480
+  Width = 618
+  object Conexion: TFDConnection
+    Params.Strings = (
+      'Server=ECS-71E3'
+      'User_Name=sa'
+      'Password=Ssa120720lt4'
+      'Database=SN_Datos'
+      'DriverID=MSSQL')
+    LoginPrompt = False
+    Left = 64
+    Top = 80
+  end
+end
